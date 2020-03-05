@@ -14,13 +14,13 @@
   };
 
   wizardCoat.addEventListener('click', function () {
-    var randomColor = window.util.getRandomWizardProp(WIZARD_COAT_COLORS);
+    var randomColor = window.util.getRandomWizardProp(window.WIZARD_COAT_COLORS);
     wizardCoat.style = 'fill:' + randomColor;
     wizardInputValueChange('coat-color', randomColor);
   });
 
   wizardEyes.addEventListener('click', function () {
-    var randomColor = window.util.getRandomWizardProp(WIZARD_EYES_COLORS);
+    var randomColor = window.util.getRandomWizardProp(window.WIZARD_EYES_COLORS);
     wizardEyes.style = 'fill:' + randomColor;
     wizardInputValueChange('eyes-color', randomColor);
   });
